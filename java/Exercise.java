@@ -56,22 +56,22 @@ public class Exercise {
 
     public static String week_day(int x) {
         switch (x) {
-        case 1:
-            return "Monday";
-        case 2:
-            return "Tuesday";
-        case 3:
-            return "Wednesday";
-        case 4:
-            return "Thursday";
-        case 5:
-            return "Friday";
-        case 6:
-            return "Saturday";
-        case 7:
-            return "Sunday";
-        default:
-            return "";
+            case 1:
+                return "Monday";
+            case 2:
+                return "Tuesday";
+            case 3:
+                return "Wednesday";
+            case 4:
+                return "Thursday";
+            case 5:
+                return "Friday";
+            case 6:
+                return "Saturday";
+            case 7:
+                return "Sunday";
+            default:
+                return "";
         }
     }
 
@@ -149,30 +149,30 @@ public class Exercise {
 
     public static double gpaPoint(String grade) {
         switch (grade) {
-        case "A+":
-            return 4;
-        case "A":
-            return 4;
-        case "A-":
-            return 3.7;
-        case "B+":
-            return 3.3;
-        case "B":
-            return 3;
-        case "B-":
-            return 2.8;
-        case "C+":
-            return 2.5;
-        case "C":
-            return 2;
-        case "C-":
-            return 1.8;
-        case "D":
-            return 1.5;
-        case "F":
-            return 0;
-        default:
-            return -1;
+            case "A+":
+                return 4;
+            case "A":
+                return 4;
+            case "A-":
+                return 3.7;
+            case "B+":
+                return 3.3;
+            case "B":
+                return 3;
+            case "B-":
+                return 2.8;
+            case "C+":
+                return 2.5;
+            case "C":
+                return 2;
+            case "C-":
+                return 1.8;
+            case "D":
+                return 1.5;
+            case "F":
+                return 0;
+            default:
+                return -1;
         }
     }
 
